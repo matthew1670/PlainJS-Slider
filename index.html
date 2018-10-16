@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="Slider.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="/main.css">
+  </head>
+  <body>
+    <div class="Slider" id="Slider1">
+      <ul>
+        <li data-athumb="https://picsum.photos/250/250/?image=0">
+          <p>Testing Title Text</p>
+          <img src="https://picsum.photos/1000/500/?image=0"  class="Responsive-img" alt="">
+        </li>
+        <li data-thumb="https://picsum.photos/250/250/?image=20">
+          <p>Testing Title Text</p>
+          <img src="https://picsum.photos/1000/500/?image=20" class="Responsive-img"  alt="">
+        </li>
+        <li data-thumb="https://picsum.photos/250/250/?image=400">
+          <p>Testing Title Text</p>
+          <img src="https://picsum.photos/1000/500/?image=400" class="Responsive-img" alt="">
+        </li>
+        <li data-thumb="https://picsum.photos/250/250/?image=679">
+          <p>Testing Title Text</p>
+          <img src="https://picsum.photos/1000/500/?image=679" class="Responsive-img" alt="">
+        </li>
+        <li data-thumb="https://picsum.photos/250/250/?image=600">
+          <p>Testing Title Text</p>
+          <img src="https://picsum.photos/1000/500/?image=600" class="Responsive-img" alt="">
+        </li>
+        <li data-thumb="https://picsum.photos/250/250/?image=154">
+          <p>Testing Title Text</p>
+          <img src="https://picsum.photos/1000/500/?image=154" class="Responsive-img" alt="">
+        </li>
+        <li data-thumb="https://picsum.photos/250/250/?image=158">
+          <p>Testing Title Text</p>
+          <img src="https://picsum.photos/1000/500/?image=158" class="Responsive-img" alt="">
+        </li>
+        <li data-thumb="https://picsum.photos/250/250/?image=188">
+          <p>Testing Title Text</p>
+          <img src="https://picsum.photos/1000/500/?image=188" class="Responsive-img" alt="">
+        </li>
+      </ul>
+    </div>
+
+    <script type="text/javascript">
+    window.onload = function(){
+      // showSlides("Slider1", {
+      //   autoplay: true,
+      //   loop: false,
+      //   speed: 2000,
+      //   startAt: 0,
+      //   thumbnails: {
+      //     show: true,
+      //     vert: false
+      //   }
+      // });
+      // showSlides("Slider1");
+
+    };
+    var test = new $Slider("Slider1");
+    test.init();
+
+    </script>
+  </body>
+</html>

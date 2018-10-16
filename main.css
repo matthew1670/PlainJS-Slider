@@ -1,0 +1,48 @@
+* {box-sizing:border-box;margin:0;padding:0;}
+
+/* Slideshow container */
+.Slider {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Hide the images by default */
+.mySlides {display: none;}
+/* Show the images when active */
+.mySlides.active{display: block}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .75}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .75}
+  to {opacity: 1}
+}
+
+
+
+.Responsive-img{
+  width: 100%;
+  height:auto;
+}
+
+.thumbnail{
+  max-width: 150px;
+  display: inline-block;
+}
+
+.ThumbnailContainer{
+  overflow: hidden;
+}
