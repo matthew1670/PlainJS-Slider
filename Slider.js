@@ -44,7 +44,6 @@ function $Slider(SliderID, options = {}) {
   this.CreateThumbs = function(){
     //Create the thumbnail container DIV
       var ThumbnailContainer = document.createElement("div");
-      console.log(ThumbnailContainer);
       ThumbnailContainer.classList = "ThumbnailsContainer";
     //Loop through the slides and grab the "data-thumb" for each and remove after as no longer needed
       for (var y = 0; y < this.slides.length; y++) {
