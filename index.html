@@ -5,6 +5,7 @@
     <title></title>
     <script src="Slider.js" charset="utf-8"></script>
     <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="favicon.ico">
   </head>
   <body>
     <div class="Slider" id="Slider1">
@@ -45,23 +46,8 @@
     </div>
 
     <script type="text/javascript">
-    window.onload = function(){
-      // showSlides("Slider1", {
-      //   autoplay: true,
-      //   loop: false,
-      //   speed: 2000,
-      //   startAt: 0,
-      //   thumbnails: {
-      //     show: true,
-      //     vert: false
-      //   }
-      // });
-      // showSlides("Slider1");
-
-    };
-    var test = new $Slider("Slider1");
-    test.init();
-
+      var _frSlider = new $Slider("Slider1");
+      _frSlider.init();
     </script>
   </body>
 </html>
